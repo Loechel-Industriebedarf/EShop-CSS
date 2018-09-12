@@ -1,0 +1,74 @@
+/* Checkout fix */
+.nw_order-info__content-box {
+	background-color: #F0F0F0;
+}
+
+/* Checkout fix */
+.nw_content-box--primary .nw_content-box__subtitle {
+	color: #000;
+}
+
+
+/* Suchrand grün */
+.nw_search-input.-with-border {
+	border: 1px solid #00DD44;
+}
+
+/* Suche größer */
+.nw_header__main-navigation {
+	flex-grow: 1;
+}
+.nw_header__search {
+	flex-grow: 5;
+}
+
+
+/* Produktanzeige -> Weißer Rand */
+.nw_product-form {
+	width: 80%;
+	margin: auto;
+}
+.nw_product-detail {
+	width: 80%;
+	margin: auto;
+}
+
+
+/* Flexbox Produktgruppen */
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+border: 1px solid #3169A6;
+}
+
+.flex-item {
+  background: none;
+  padding: 5px;
+  width: 250px;
+  height: 50px;
+  margin-top: 10px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+/* Produktrahmen entfernen */
+.nw_product-detail__image-slider{
+border: 0 !important;
+}
+
+
+
+gerrit{
+    background: url('https://www.loechel-industriebedarf.de/upload/shoppictures_95/tinymce/banner/gruende.jpg');
+}
+gerrit:hover {
+    background: url('https://www.loechel-industriebedarf.de/upload/shoppictures_95/tinymce/banner/gruende02.jpg');
+}
