@@ -24,6 +24,7 @@
 
 
 /* Produktanzeige -> Weißer Rand */
+@media screen and (min-width: 1024px) {
 .nw_product-form {
 	width: 80%;
 	margin: auto;
@@ -31,6 +32,7 @@
 .nw_product-detail {
 	width: 80%;
 	margin: auto;
+}
 }
 
 
@@ -64,6 +66,11 @@ border: 1px solid #3169A6;
 border: 0 !important;
 }
 
+.nw_product-list--grid .nw_product-list__item {
+	border-left-color: transparent;
+	border-top-color: transparent;
+	box-shadow: 0px 0 0 0 transparent, 0 0px 0 0 transparent;
+}
 
 
 gerrit{
