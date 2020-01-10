@@ -35,6 +35,14 @@
 }
 }
 
+/* Warenanzahl Artikel fix */
+.nw_product-detail__content {
+	max-width: 135rem;
+}
+.nw_product-detail__header {
+	max-width: 135rem;
+}
+
 
 /* Flexbox Produktgruppen */
 .flex-container {
@@ -45,7 +53,7 @@
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
+  display: block;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 border: 1px solid #3169A6;
